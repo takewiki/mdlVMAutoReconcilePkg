@@ -2,9 +2,9 @@
 % Please edit documentation in R/AutoReconcile.R
 \name{AutoReconcile_view}
 \alias{AutoReconcile_view}
-\title{查询AutoReconcile异常数据}
+\title{查询AutoReconcile数据}
 \usage{
-AutoReconcile_view(erp_token, FYearMonth, FCustomer, FBillNo)
+AutoReconcile_view(erp_token, FYearMonth, FDeliveryLocation, FBillNo)
 }
 \arguments{
 \item{erp_token}{}
@@ -15,7 +15,7 @@ AutoReconcile_view(erp_token, FYearMonth, FCustomer, FBillNo)
 无返回值
 }
 \description{
-查询AutoReconcile异常数据
+查询AutoReconcile数据
 }
 \examples{
 AutoReconcile_view()
